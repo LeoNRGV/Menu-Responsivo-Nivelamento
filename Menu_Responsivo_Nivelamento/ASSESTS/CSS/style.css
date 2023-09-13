@@ -38,9 +38,41 @@
     color: rgb(0, 0, 0);
     font-weight: 400;
 }
-.login-button{
+.login-button Button a{
     text-decoration: none;
     color: crimson;
     font-weight: 500;
     font-size: 1.1rem;
+}
+.login-button Button a{
+    border: none;
+    background-color: rgb(168, 105, 199);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+.mobile-menu-icon Button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.mobile-menu ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.mobile-menu .nav-item{
+    display:block;
+    padding-top: 1rem 2rem;
+    padding: 1rem 2rem;
+}
+.mobile-menu .login-button{
+    display: block;
+    padding: 1rem 2rem;
 }
